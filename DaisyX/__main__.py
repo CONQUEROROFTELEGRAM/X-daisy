@@ -67,7 +67,7 @@ Hello there, I'm [Aurora](https://telegra.ph/file/35166eeab59b12680f8ca.jpg)
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
-✪ Make sure you read *INFO* Section Below ✪ 
+🔘 Make sure you read *INFO* Section Below 🔘 
 """
 
 buttons = [
@@ -87,12 +87,12 @@ buttons = [
 
 HELP_STRINGS = f"""
 *Main Commands :* [Aurora](https://telegra.ph/file/35166eeab59b12680f8ca.jpg)
-✪ /start: Starts me! You've probably already used this.
-✪ /help: Click this, I'll let you know about myself!
-✪ /donate: You can support my creater using this command.
-✪ /settings: 
-   ◔ in PM: will send you your settings for all supported modules.
-   ◔ in a Group: will redirect you to pm, with all that chat's settings.
+🔘 /start: Starts me! You've probably already used this.
+🔘 /help: Click this, I'll let you know about myself!
+🔘 /donate: You can support my creater using this command.
+🔘 /settings: 
+   ☑️ in PM: will send you your settings for all supported modules.
+   ☑️ in a Group: will redirect you to pm, with all that chat's settings.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
