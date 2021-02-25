@@ -63,7 +63,7 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [Aɳɠҽʅʅα 🧚‍♀](https://telegra.ph/file/c01f0e0eb74ac8babbbbb.jpg)
+Hello there, I'm [Aurora](https://telegra.ph/file/35166eeab59b12680f8ca.jpg)
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
@@ -72,21 +72,21 @@ I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managi
 
 buttons = [
     [
-        InlineKeyboardButton(text="Info ⚠️", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="Info ", callback_data="aboutmanu_"),
     ],
     [
-        InlineKeyboardButton(text="Help ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="Help ", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="Add Me 💃", url="t.me/VillainProBot?startgroup=true"
+            text="Add Me ", url="t.me/MissAurora_Bot?startgroup=true"
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [Aɳɠҽʅʅα 🧚‍♀](https://telegra.ph/file/c01f0e0eb74ac8babbbbb.jpg)
+*Main Commands :* [Aurora](https://telegra.ph/file/35166eeab59b12680f8ca.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -361,9 +361,9 @@ def DaisyX_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"* Hi again!  The name's {dispatcher.bot.first_name}  \n\nAs  You I'm a next generational group management bot developed by Infinity_Bots.* "
-            f"\n\n  Join [Angella Support](https://t.me/TG_BotZ) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            f"\n\n  Join [Aurora Support](https://t.me/TG_BotZ) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/c01f0e0eb74ac8babbbbb.jpg)"
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/35166eeab59b12680f8ca.jpg)"
             f"\n\n You Can Know More About Me By Clicking The Below Buttons",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -477,12 +477,12 @@ def DaisyX_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @Legend_Of_Universe spending many sleepless nights.. So, Respect it."
+            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @CONQUEROR_OF_TELEGRAM spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
             f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of Aɳɠҽʅʅα 🧚‍♀ we are not resposible for anything."
+            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of Aurora we are not resposible for anything."
             f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
